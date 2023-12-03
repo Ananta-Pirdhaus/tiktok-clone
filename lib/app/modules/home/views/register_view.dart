@@ -34,7 +34,7 @@ class RegisterPage extends StatefulWidget {
 class _RegisterPageState extends State<RegisterPage> {
 
   static final Future<SharedPreferences> _prefs =
-      SharedPreferences.getInstance();
+  SharedPreferences.getInstance();
   static Future<void> setLoggedIn(bool value) async {
     final SharedPreferences prefs = await _prefs;
     prefs.setBool('isLoggedIn', value);

@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get/get_core/src/get_main.dart';
 import 'package:get/get_navigation/src/snackbar/snackbar.dart';
+import 'package:modul3/app/modules/home/views/plus.dart';
 import 'package:modul3/app/modules/models/database_models.dart';
 
 class AddTodoScreen extends StatefulWidget {
@@ -64,6 +65,7 @@ class AddTodoScreentState extends State<AddTodoScreen> {
                           duration: Duration(seconds: 2),
                           snackPosition: SnackPosition.TOP,
                         );
+                        Get.to(() => ToDoListPage());
                       }
                     } catch (e) {
                       Get.snackbar(
