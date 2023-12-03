@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "649578057922",
+    "project_id": "auth-flutter-c3945",
+    "storage_bucket": "auth-flutter-c3945.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:649578057922:android:ebaeaa7a3ff6d230c32b5b",
+        "android_client_info": {
+          "package_name": "com.example.nopel_get"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpGTPhxemozRwxVuduMQqbF3JR4pwAYqI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
