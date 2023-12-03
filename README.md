@@ -1,4 +1,6 @@
-# nopel_get
+Tiktok Clone
+
+**Fitur Webview, Change Avatar, Edit Profile, Path with Getx, Login & Register with appwrite, Fetching API**
 
 A new Flutter project.
 
